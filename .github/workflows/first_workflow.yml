@@ -8,3 +8,7 @@ jobs:
         steps:
             - name: Display some text
               run: echo "Some text with second attempt"
+            - name: Command in multiline
+              run: |
+                node -v
+                npm -v
