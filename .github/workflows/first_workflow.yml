@@ -7,4 +7,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Display some text
-              run: echo "Some text"
+              run: echo "Some text with second attempt"
