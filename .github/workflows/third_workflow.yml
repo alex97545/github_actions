@@ -6,7 +6,8 @@ jobs:
     run-first-command:
         runs-on: ubuntu-latest
         steps:
-            - name: Command in multiline
-              run: |
-                pwd
-                ls -a
+            - name: List files and Copy repo
+              run: ls -a
+            - uses: actions/checkout@v4
+            - name: List files and Copy repo
+              run: ls -a
